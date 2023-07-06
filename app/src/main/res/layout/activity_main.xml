@@ -229,7 +229,7 @@
        android:layout_width="200dp"
        android:layout_height="0dp"
        app:layout_constraintDimensionRatio="3:1"
-       android:background="#5db"
+       android:background="#00BCD4"
        android:id="@+id/vGreen"
        app:layout_constraintStart_toStartOf="@id/guide_v_25"
        app:layout_constraintEnd_toEndOf="@+id/guide_v_66"
