@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="yellowwidth">100dp</dimen>
+    <dimen name="yellowheight">0dp</dimen>
+    <dimen name="bluewidth">100dp</dimen>
+    <dimen name="blueheight">0dp</dimen>
+</resources>

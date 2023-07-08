@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ConstraintLayoutFirst</string>
+    <string name="singa">Singapur</string>
+    <string name="Camera">Camera</string>
+    <string name="cam">Camera</string>
+    <string name="lens">Lens</string>
+    <string name="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration Contrary to popular belief .There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration Contrary to popular belief .There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration Contrary to popular belief</string>
+    <string name="scan">Scan</string>
+    <string name="upload">Upload</string>
 </resources>
