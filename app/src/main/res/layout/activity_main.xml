@@ -190,15 +190,16 @@
        android:layout_width="0dp"
        android:layout_height="0dp"
        android:background="#E91E63"
-       app:layout_constraintLeft_toLeftOf="@id/guide_v_25"
-       app:layout_constraintRight_toRightOf="@id/guide_v_75"
+       app:layout_constraintStart_toStartOf="@id/guide_v_25"
+       app:layout_constraintEnd_toEndOf="@id/guide_v_75"
        app:layout_constraintBottom_toBottomOf="@id/guide_h_40"
        app:layout_constraintTop_toTopOf="@id/guide_h_35"
        android:id="@+id/vRedBox" />
    <ImageView
-       android:layout_width="50dp"
+       android:layout_width="0dp"
        android:layout_height="0dp"
        app:layout_constraintDimensionRatio="1:1"
+       android:scaleType="centerCrop"
        android:src= "@drawable/baseline_update_24"
        app:layout_constraintStart_toStartOf="@id/vBoxfirst"
        app:layout_constraintEnd_toEndOf="@id/vBoxSecond"
@@ -226,12 +227,12 @@
        app:layout_constraintStart_toStartOf="@id/vBoxSecond"
        android:id="@+id/tvYellow"/>
    <View
-       android:layout_width="200dp"
+       android:layout_width="215dp"
        android:layout_height="0dp"
        app:layout_constraintDimensionRatio="3:1"
        android:background="#00BCD4"
        android:id="@+id/vGreen"
-       app:layout_constraintStart_toStartOf="@id/guide_v_25"
+       app:layout_constraintStart_toStartOf="@id/guide_v_10"
        app:layout_constraintEnd_toEndOf="@+id/guide_v_66"
        app:layout_constraintBottom_toBottomOf="@+id/guide_h_60"
        app:layout_constraintTop_toTopOf="@id/guide_h_53" />
@@ -255,13 +256,13 @@
        app:layout_constraintEnd_toEndOf="@id/vGreen"
        app:layout_constraintBottom_toBottomOf="@id/vGreen" />
    <View
-       android:layout_width="120dp"
+       android:layout_width="110dp"
        android:layout_height="0dp"
        app:layout_constraintDimensionRatio="3:1"
        android:id="@+id/vPurple"
        android:background="#AD9C27B0"
-       app:layout_constraintStart_toStartOf="@id/guide_v_37"
-       app:layout_constraintEnd_toEndOf="@id/guide_v_66"
+       app:layout_constraintStart_toStartOf="@id/guide_v_10"
+       app:layout_constraintEnd_toEndOf="@id/guide_v_37"
        app:layout_constraintTop_toTopOf="@id/guide_h_65"
        app:layout_constraintBottom_toBottomOf="@+id/guide_h_70" />
    <TextView
